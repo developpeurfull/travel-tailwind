@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth md:scroll-auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Ajout de la police Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- link fontawesome -->
+     <!-- offline -->
+     <link rel="stylesheet" href="../../../../outis dev/fontawesome-free-6.6.0-web/css/all.min.css">
+     <!-- online -->
+     <script src="https://kit.fontawesome.com/aa2fdf8cae.js" crossorigin="anonymous"></script>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Travel Tailwind</title>
+<!-- 
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif !important;
+        }
+    </style> -->
+</head>
+<body class="bg-[#fff] font-inter ">
+    <!-- -->
+   <!-- text-[#f6d238] -->
+    <!-- Header section -->
+    <header class="px-[20px] py-[10px] justify-between items-center w-full flex flex-col md:flex-row">
+        <div class="w-full md:w-[30%] pl-10 justify-center items-center"> 
+            <div class="font-bold size-[20px] flex">
+                <p class="text-2xl flex">Travel <span class="text-amber-500 " >.Tailwind</span></p>
+            </div>
+        </div>
+ 
+        <ul class="flex flex-col md:flex-row justify-center w-full md:w-[40%] space-y-4 md:space-y-0 md:space-x-10">
+            <li class=" py-[25px]">
+                <a class="text-[#999] transition duration-300 ease-in-out size-3.5 hover:bg-amber-500 hover:p-4 hover:text-black hover:font-bold   hover:rounded-xl "
+                 href="#home-section">Home</a>
+            </li>
+            <li class=" py-[25px]">
+                <a class="text-[#999] transition duration-300 ease-in-out size-3.5 hover:bg-amber-500 hover:p-4 hover:text-black hover:font-bold   hover:rounded-xl " 
+                href="#destination">Destinations</a>
+            </li>
+            <li class=" py-[25px]">
+                <a class="text-[#999] transition duration-300 ease-in-out size-3.5 hover:bg-amber-500 hover:p-4 hover:text-black hover:font-bold   hover:rounded-xl "  
+                href="#best-trip">Pricing</a>
+            </li>
+            <li class=" py-[25px]">
+                <a class="text-[#999] transition duration-300 ease-in-out size-3.5 hover:bg-amber-500 hover:p-4 hover:text-black hover:font-bold   hover:rounded-xl " 
+                href="#email-trip">Reviews</a>
+            </li>
+        </ul>
+
+        <div class="w-full md:w-[30%] flex justify-center md:content-end mt-4 md:mt-0">
+            <button type="submit" class="transition duration-300 ease-in-out text-black bg-amber-500 border-[2px] border-solid border-amber-500 px-4 py-3 rounded-2xl font-bold cursor-pointer shadow hover:bg-white hover:rotate-6  ">
+                <i class="fa-solid fa-phone mr-0.5" aria-hidden="true"></i>
+                
+                <span>Reserver</span>
+            </button>
+        </div>
+    </header>
+
+    <section id="home-section" class=" px-[70px] py-[5%] flex content-center items-center w-full bg-[#f1f1f1]">
+        <div class="relative h-130 w-150">
+            <img class="absolute object-cover border-8 border-solid border-white  rounded-2xl shadow-2xl  w-115 h-125 transition duration-300 ease-in-out hover:scale-[1.1] hover:rotate-10" src="../images/img.jpg" alt="">
+            <img class="absolute object-cover border-8 border-solid border-white  rounded-2xl shadow-2xl  w-90 h-90 top-35 left-65 transition duration-300 ease-in-out hover:scale-[1.1] hover:rotate-[-10deg] " src="../images/img2.jpg" alt="">
+        </div>
+        <div class="ml-[100px] w-[30%] flex flex-col items-center justify-center">
+            <div>
+                <span class="text-amber-400 font-bold ">Planifiez votre Aventure</span>
+                <h1 class="font-bold text-2xl mx-[20px] my-0 text-[35px]">Votre Voyage Ideal <br> Commence ici 🚀🚀 </h1>
+                <p class="mb-[25px] text-[#999] w-[70%] text-[16px]  ">Découvrez des destinations extraordinaires et créez des souvenirs inoubliables avec notre expertise en voyages personnalisés. Notre équipe passionnée vous accompagne dans la planification de votre prochaine aventure, en vous offrant des expériences authentiques et uniques.</p>
+                
+                <div class="flex items-center">
+                    <button class="transition duration-300 ease-in-out text-black bg-amber-500 border-[2px] border-solid border-amber-500 px-3 py-2 rounded-2xl font-bold cursor-pointer shadow-xl hover:bg-white hover:rotate-6  ">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        Book Now
+                    </button>
+                    <button class="border-0 flex bg-transparent items-center cursor-pointer">
+                        <div class="ml-[20px] bg-[url(../images/img3.jpg)] h-[60px] w-[60px] bg-center bg-cover rounded-[50%] relative shadow-2xl">
+                            <div class="play-btn flex justify-center items-center h-[30px] w-[30px] bg-white rounded-[50%] right-[-20px] translate-x-[-20%] translate-y-[50%] absolute">
+                                 <i class="fa-solid fa-play text-red-500" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <span class="ml-6 font-bold ">Watch our history</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destination" class=" px-[70px] py-[5%]  ">
+        <h1 class="title font-bold text-3xl">Explore Top Destinations</h1>
+        <div class="desc-button flex justify-between my-7 mx-0 ">
+            <p class="small-button text-[16px] text-gray-400 w-[60%]">Decouvrez des destinations fascinantes a travers le monde. <br> Ou chaque lieu offre une experience unique et memorable.</p>
+            <div class="buttons flex space-x-2">
+                <button class="bg-amber-300 cursor-pointer border-solid border-[2px] border-amber-300 h-[50px] w-[50px] rounded-3xl transition duration-300 ease-in-out hover:bg-white hover:rotate-10">
+                    <i class="fa fa-chevron-left text-2xl" aria-hidden="true"></i>
+                </button> 
+                <button class="bg-amber-300 cursor-pointer border-solid border-[2px] border-amber-300 h-[50px] w-[50px] rounded-3xl transition duration-300 ease-in-out hover:bg-white hover:rotate-10">
+                    <i class="fa fa-chevron-right text-2xl" aria-hidden="true"></i>
+                </button> 
+            </div>
+        </div>
+
+        <div class="gallerie flex justify-between">
+            <div class="image w-[24%] h-[350px] rounded-xl shadow-2xl overflow-hidden relative cursor-pointer bg-white p-[20px] group">
+                <img src="../images/France.jpg" alt="" class="object-cover h-full w-full rounded-xl transition duration-300 ease-in-out group-hover:translate-y-[-50px]">
+                <div class="description translate-y-[350px] bg-white text-center transition duration-300 ease-in-out p-[10px] absolute bottom-0 left-0 right-0 group-hover:translate-y-[-50px]">
+                    <h1 class="text-2xl mb-2 font-bold">France</h1>
+                    <p class="text-[14px] text-[#999]"> Patrimoine historique, gastronomie, art, mode et élégance.</p>
+                </div>
+            </div>
+            <div class="image w-[24%] h-[350px] rounded-xl shadow-2xl overflow-hidden relative cursor-pointer bg-white p-[20px] group">
+                <img src="../images/Canada.jpg" alt="" class="object-cover h-full w-full rounded-xl transition duration-300 ease-in-out group-hover:translate-y-[-50px]">
+                <div class="description translate-y-[350px] bg-white text-center transition duration-300 ease-in-out p-[10px] absolute bottom-0 left-0 right-0 group-hover:translate-y-[-50px]">
+                    <h1 class="text-2xl mb-2 font-bold">Canada</h1>
+                    <p class="text-[14px] text-[#999]">Nature grandiose, diversité culturelle, climat nordique et accueillant.</p>
+                </div>
+            </div>
+            <div class="image w-[24%] h-[350px] rounded-xl shadow-2xl overflow-hidden relative cursor-pointer bg-white p-[20px] group">
+                <img src="../images/Egypt.jpg" alt="" class="object-cover h-full w-full rounded-xl transition duration-300 ease-in-out group-hover:translate-y-[-50px]">
+                <div class="description translate-y-[350px] bg-white text-center transition duration-300 ease-in-out p-[10px] absolute bottom-0 left-0 right-0 group-hover:translate-y-[-50px]">
+                    <h1 class="text-2xl mb-2 font-bold">Egypte</h1>
+                    <p class="text-[14px] text-[#999]">Terre des pharaons, pyramides, Nil et histoire millénaire.</p>
+                </div>
+            </div>
+            <div class="image w-[24%] h-[350px] rounded-xl shadow-2xl overflow-hidden relative cursor-pointer bg-white p-[20px] group">
+                <img src="../images/South-Africa.jpg" alt="" class="object-cover h-full w-full rounded-xl transition duration-300 ease-in-out group-hover:translate-y-[-50px]">
+                <div class="description translate-y-[350px] bg-white text-center transition duration-300 ease-in-out p-[10px] absolute bottom-0 left-0 right-0 group-hover:translate-y-[-50px]">
+                    <h1 class="text-2xl mb-2 font-bold">Afrique du Sud</h1>
+                    <p class="text-[14px] text-[#999]">Paysages variés, Big Five, culture riche et vibrante.</p>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <section id="best-trip" class=" px-[70px] py-[5%] flex flex-col justify-center  items-center bg-[#f1f1f1]">
+        <h1 class="title font-bold text-2xl mx-[20px] my-0 text-[35px]">Explore Top Destinations</h1>
+        <p class="p-[20px] text-[#999] w-[70%] text-[16px] text-center">Découvrez nos destinations de rêve soigneusement sélectionnées pour des voyages inoubliables.
+            <br> Des expériences authentiques et des moments magiques vous attendent!</p>
+        </p>
+        <div class="list-box justify-between w-[80%] flex fel space-x-2 ">
+            <div class="box h-120 w-[40%]  relative rounded-xl overflow-hidden shadow-2xl group">
+                <img src="../images/img6.jpg" alt="" class="object-cover cursor-pointer h-full w-full transition duration-300 ease-in-out hover:scale-[2] hover:rotate-10">
+                <div class="description bottom-0 absolute w-full p-4 bg-white transition duration-300 ease-in-out ">
+                    <h2 class="font-600  my-1 text-[16px]">Windhoek, Namibie</h2>
+                    <p class="text-amber-300 font-bold ">
+                        <i class="fa-solid fa-star text-amber-300" aria-hidden="true"></i>
+                        7.5
+                    </p>
+                    <div class="button-desc flex justify-between  items-center">
+                        <span class="text-[15px]">
+                            From 
+                            <strong class="font-bold">
+                                $700
+                            </strong>
+                            
+                        </span>
+                        <button class="px-5 py-2 border-2 text-amber-300 cursor-pointer transition duration-300 ease-in-out bg-transparent rounded-xl hover:text-black hover:border-amber-300  hover:bg-amber-300 ">Book Now</button>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="box h-120 w-[40%]  relative rounded-xl overflow-hidden shadow-2xl group">
+                <img src="../images/img4.jpg" alt="" class="object-cover cursor-pointer h-full w-full transition duration-300 ease-in-out hover:scale-[2] hover:rotate-10">
+                <div class="description bottom-0 absolute w-full p-4 bg-white transition duration-300 ease-in-out ">
+                    <h2 class="font-600  my-1 text-[16px]">Paris, France</h2>
+                    <p class="text-amber-300 font-bold ">
+                        <i class="fa-solid fa-star text-amber-300" aria-hidden="true"></i>
+                        7.5
+                    </p>
+                    <div class="button-desc flex justify-between  items-center">
+                        <span class="text-[15px]">
+                            From 
+                            <strong class="font-bold">
+                                $800
+                            </strong>
+                            
+                        </span>
+                        <button class="px-5 py-2 border-2 text-amber-300 cursor-pointer transition duration-300 ease-in-out bg-transparent rounded-xl hover:text-black hover:border-amber-300  hover:bg-amber-300 ">Book Now</button>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="box h-120 w-[40%]  relative rounded-xl overflow-hidden shadow-2xl group">
+                <img src="../images/img5.jpg" alt="" class="object-cover cursor-pointer h-full w-full transition duration-300 ease-in-out hover:scale-[2] hover:rotate-10">
+                <div class="description bottom-0 absolute w-full p-4 bg-white transition duration-300 ease-in-out ">
+                    <h2 class="font-600  my-1 text-[16px]">Elephant, Afrique du sud</h2>
+                    <p class="text-amber-300 font-bold ">
+                        <i class="fa-solid fa-star text-amber-300" aria-hidden="true"></i>
+                        7.5
+                    </p>
+                    <div class="button-desc flex justify-between  items-center">
+                        <span class="text-[15px]">
+                            From 
+                            <strong class="font-bold">
+                                $500
+                            </strong>
+                            
+                        </span>
+                        <button class="px-5 py-2 border-2 text-amber-300 cursor-pointer transition duration-300 ease-in-out bg-transparent rounded-xl hover:text-black hover:border-amber-300  hover:bg-amber-300 ">Book Now</button>
+                    </div>
+    
+                </div>
+            </div>
+            
+        </div>
+        <div class="view-div mt-10  justify-center items-center flex">
+            <button type="submit" class="transition duration-300 ease-in-out text-black bg-amber-300 border-[2px] border-solid border-amber-300 px-4 py-3 rounded-2xl font-bold cursor-pointer shadow hover:bg-white hover:rotate-6  ">
+                <span>Voir Plus</span>
+                <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+              
+            </button>
+        </div>
+    </section>
+    
+    <section id="email-trip" class=" px-[70px] py-[5%]  ">
+        <h1 class="font-bold text-2xl mx-[20px] my-0 text-[35px]">Give Us Your Email</h1>
+        <div class="together flex justify-between">
+            <div class="text w-[70%]">
+                <p class="small-desc p-[20px] text-[#999] w- text-[16px] text-start">
+                    Restez informé de nos meilleures offres de voyage et destinations exclusives !
+                    <br>Inscrivez-vous à notre newsletter pour recevoir des inspirations de voyage et des offres spéciales.
+                </p>
+            </div>
+            <div class="shadow-2xl h-[60px]  flex w-[30%] border-white justify-between  rounded-2xl overflow-hidden">
+                <input type="text" placeholder="Your Email Here " class="w-[65%] flex p-3  text-[15px] border-white">
+                <button type="submit" class=" w-[35%] transition duration-300 ease-in-out text-black bg-amber-300 border-[2px] border-solid border-amber-300 px-4 py-3 rounded-2xl font-bold cursor-pointer shadow hover:bg-white hover:rotate-6  ">
+                    <span>Envoyer</span>
+                    <i class="fa-solid fa-send" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-rounnded rounded-b-4xl rounded-t-4xl bg-[#f1f1f1] px-5 py-2 text-center flex flex-col justify-center items-center">
+        <div class="w-[30%] ml-73 mt-7 justify-center items-center "> 
+            <div class="font-bold size-[20px] flex">
+                <p class="text-2xl flex">Travel <span class="text-amber-500 " >.Tailwind</span></p>
+            </div>
+        </div>
+
+        <p class="p-5 text-[#999] text-center w- text-[14px]">All Rights reserved <span class="text-amber-400">&copy;</span>2025</p>
+    </footer>
+</body>
+</html>
